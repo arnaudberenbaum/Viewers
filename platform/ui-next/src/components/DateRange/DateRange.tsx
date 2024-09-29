@@ -2,8 +2,8 @@ import * as React from 'react';
 import { format, parse, isValid } from 'date-fns';
 import { Calendar as CalendarIcon } from 'lucide-react';
 import { cn } from '../../lib/utils';
-import Calendar from '../Calendar';
-import Popover from '../Popover';
+import { Calendar } from '../Calendar';
+import { Popover } from '../Popover';
 
 export type DatePickerWithRangeProps = {
   id: string;
